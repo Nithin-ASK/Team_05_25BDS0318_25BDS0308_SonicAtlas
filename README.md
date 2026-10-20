@@ -45,9 +45,10 @@ Documents (report, decks, paper, proof, self-check) are generated from `reports/
 (see the `Makefile`: `make report ppt paper proof plagcheck`).
 
 ## Publish on GitHub Pages
-1. Create an empty GitHub repository and push this folder (`git remote add origin <url> && git push -u origin main`).
-2. In the repository settings, set **Pages -> Source = GitHub Actions**. The workflow `.github/workflows/deploy-pages.yml` builds `web/` and deploys `web/dist`.
-3. Upload `data/processed/tracks_full_web.parquet` as a Release asset and set its URL in `web/src/config.ts` (`FULL_DATA_URL`) for the optional full-data tier.
+The site is already published from the `gh-pages` branch (live link above). To republish: `cd web && npm ci && npm run build`, then push the
+contents of `web/dist` (plus `.nojekyll`, `404.html` copy of index.html and `data/tracks_full.bin.zip` for the optional full-data tier) to
+the `gh-pages` branch, with Pages set to "Deploy from a branch". An automatic Actions workflow is provided in `deploy/` (see deploy/README.md);
+GitHub needs the `workflow` permission to accept it under `.github/workflows/`.
 
 ## Tech stack
 Python (pandas, scikit-learn, statsmodels, ruptures, umap-learn, networkx, VADER, TextBlob), Jupyter, YData-Profiling,
