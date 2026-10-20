@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./SqlEditor-B4QeLd1c.js","./codemirror-D5M76DWd.js","./react-BinVGxRz.js","./index-D6q7taTS.js","./duckdb-DYYvks4J.js","./index-DJiR2iWM.css"])))=>i.map(i=>d[i]);
-import{c as v,u as je,h as se,q as ve,P as we,i as $,C as E,b as q,d as D,R as te,j as ae,k as V,E as Q,f as ne,l as Ne,N as le,m as Se,_ as Ee}from"./index-D6q7taTS.js";import{j as e}from"./codemirror-D5M76DWd.js";import{a as m,L as qe}from"./react-BinVGxRz.js";import{D as ke}from"./DataTable-DWwehvLp.js";import{K as P,E as Ce,G as Re,T as re,A as ie,F as oe,f as Ae}from"./features-D6-FNglW.js";import{q as M,l as De,d as _e,e as ce,b as Me,t as Oe,s as Te,D as Le,a as $e}from"./sqlBuilder-ChHfSb4h.js";import{u as Ue}from"./domains-CyW7102Z.js";import{u as U}from"./urlState-B9c4niXG.js";import{c as de,d as H,t as Be}from"./hooks-CIhuAl3F.js";import{l as Pe,s as Fe,p as Ie,c as Ge}from"./history-g6DbE8Zb.js";import{P as Ye}from"./play-BDjKSTcI.js";import"./duckdb-DYYvks4J.js";/**
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./SqlEditor-Bl0ZGuGn.js","./codemirror-D5M76DWd.js","./react-BinVGxRz.js","./index-CyNNz1oj.js","./duckdb-DYYvks4J.js","./index-DJiR2iWM.css"])))=>i.map(i=>d[i]);
+import{c as v,u as je,h as se,q as ve,P as we,i as $,C as E,b as q,d as D,R as te,j as ae,k as V,E as Q,f as ne,l as Ne,N as le,m as Se,_ as Ee}from"./index-CyNNz1oj.js";import{j as e}from"./codemirror-D5M76DWd.js";import{a as m,L as qe}from"./react-BinVGxRz.js";import{D as ke}from"./DataTable-DfAwimvj.js";import{K as P,E as Ce,G as Re,T as re,A as ie,F as oe,f as Ae}from"./features-D6-FNglW.js";import{q as M,l as De,d as _e,e as ce,b as Me,t as Oe,s as Te,D as Le,a as $e}from"./sqlBuilder-ChHfSb4h.js";import{u as Ue}from"./domains-CLfuI8M2.js";import{u as U}from"./urlState-B9c4niXG.js";import{c as de,d as H,t as Be}from"./hooks-DOEfh8-W.js";import{l as Pe,s as Fe,p as Ie,c as Ge}from"./history-g6DbE8Zb.js";import{P as Ye}from"./play-DH47BXP9.js";import"./duckdb-DYYvks4J.js";/**
  * @license lucide-react v0.577.0 - ISC
  *
  * This source code is licensed under the ISC license.
@@ -49,7 +49,7 @@ FROM ${d}`;return A.length&&(C+=`
 WHERE ${A.map(s=>s.sql).join(`
   AND `)}`),w&&(C+=`
 ORDER BY ${w} ${k}`),C+=`
-LIMIT ${Math.max(1,Math.min(1e4,N))}`,{sql:C,conditions:A,orderBy:w,limit:N,unmatched:S}}const os=m.lazy(()=>Ee(()=>import("./SqlEditor-B4QeLd1c.js"),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url)),K=[{label:"Average features by decade",sql:`SELECT decade, COUNT(*) AS n,
+LIMIT ${Math.max(1,Math.min(1e4,N))}`,{sql:C,conditions:A,orderBy:w,limit:N,unmatched:S}}const os=m.lazy(()=>Ee(()=>import("./SqlEditor-Bl0ZGuGn.js"),__vite__mapDeps([0,1,2,3,4,5]),import.meta.url)),K=[{label:"Average features by decade",sql:`SELECT decade, COUNT(*) AS n,
   ROUND(AVG(energy), 3) AS energy,
   ROUND(AVG(acousticness), 3) AS acousticness,
   ROUND(AVG(loudness), 2) AS loudness_db
