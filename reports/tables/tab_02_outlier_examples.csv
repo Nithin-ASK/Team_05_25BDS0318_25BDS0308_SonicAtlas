@@ -1,0 +1,16 @@
+case,,name,artist_main,tempo,is_outlier,loudness,energy,speechiness
+extreme_tempo,9879,Frequency Response,Bass Mekanik,221.712,False,,,
+extreme_tempo,31445,Western Union,The Five Americans,231.028,False,,,
+extreme_tempo,44682,Balsa,Gustavo Cerati,223.291,True,,,
+extreme_tempo,50999,811 10A,Plumbline,220.039,False,,,
+extreme_tempo,53734,Pecan,MICROFUNK,246.13,False,,,
+near_silent,4766,"Die blaue Mazur: Act III: Dialogue: Wie ich hore, weigern Sie sich standhaft, die Mazur zu tanzen (Juljan)",Franz Lehár,,True,-45.756,0.0265,
+near_silent,7509,Seiren,Mimosa/Moize,,True,-52.482,0.000512,
+near_silent,9972,The Party Is Over - Alternate Version,Lacrimosa,,True,-60.0,0.0,
+near_silent,10091,The Firebird (Original Version): Introduction,Igor Stravinsky,,False,-49.782,0.000531,
+near_silent,10099,The Firebird (Original Version): Ivan Tsarevich Appears,Igor Stravinsky,,False,-45.624,0.000726,
+spoken_word,358,Here's To Wang,Zorras,,True,,,0.931
+spoken_word,750,Platforms,Ani DiFranco,,True,,,0.924
+spoken_word,755,The True Story of What Was,Ani DiFranco,,True,,,0.933
+spoken_word,1550,Untitled,Coffin Lids,,True,,,0.901
+spoken_word,3290,216 - Das Geheimnis im Jagdschloss - Inhaltsangabe,TKKG,,True,,,0.956

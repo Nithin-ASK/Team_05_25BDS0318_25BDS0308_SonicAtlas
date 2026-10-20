@@ -1,0 +1,758 @@
+{
+ "date": "2026-10-20",
+ "engine": "WebSearch tool (standard mode)",
+ "checked": 90,
+ "results": [
+  {
+   "doc": "report",
+   "i": 0,
+   "query": "\"dance hits from lower-ranked entries reasonably well\"",
+   "query_words": 7,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 1,
+   "query": "\"Background Digital music services now hold catalogues of tens of millions of recordings\"",
+   "query_words": 13,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 2,
+   "query": "\"Quantify the main correlations and visualise genre fingerprints with parallel coordinates Andrews curves radar\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 3,
+   "query": "\"analytics layer and no in-browser deployment which SonicAtlas has to add\"",
+   "query_words": 11,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 4,
+   "query": "\"This tutorial-style overview reviews the many systems built over the past decade to ease\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 5,
+   "query": "\"A Parsimonious Rule-Based Model for Sentiment Analysis of Social Media Text Proc\"",
+   "query_words": 12,
+   "exact_matches": 1,
+   "urls": [
+    "https://ojs.aaai.org/index.php/ICWSM/article/view/14550",
+    "https://doi.org/10.1609/icwsm.v8i1.14550"
+   ],
+   "note": "matches the published title of the cited VADER paper (a reference-list entry, not copied prose)"
+  },
+  {
+   "doc": "report",
+   "i": 6,
+   "query": "\"songs the authors test whether feature-space typicality predicts chart performance beyond artist and label\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 7,
+   "query": "\"recognition systems in different ways and argues for careful rather than blind use of\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 8,
+   "query": "\"With k\"",
+   "query_words": 2,
+   "exact_matches": "error",
+   "urls": [],
+   "note": "numbers-heavy sentence, no clean word run; search not run"
+  },
+  {
+   "doc": "report",
+   "i": 9,
+   "query": "\"Musicologists and data scientists have used such descriptors to ask how popular music has\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 10,
+   "query": "\"Because the audio-features endpoint is no longer open to new applications these archived tables\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 11,
+   "query": "\"It is the closest prior study to SonicAtlas tracking acoustic descriptors across three decades\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 12,
+   "query": "\"It then surveys adaptations of PCA for different data types and structures and discusses\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 13,
+   "query": "\"Voyager complements manual chart building with a browsable gallery of automatically generated visualisations ranked\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 14,
+   "query": "\"Vega-Lite's declarative charts and selections are a natural specification layer for SonicAtlas's interactive plots\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 15,
+   "query": "\"It was then joined to the main table by Spotify track ID\"",
+   "query_words": 12,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 16,
+   "query": "\"Energy is tightly tied to loudness\"",
+   "query_words": 6,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 17,
+   "query": "\"ANOVA with Tukey HSD Kruskal-Wallis chi-square with Cramer's\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 18,
+   "query": "\"Findings are reported as static figures for one market without lyrics content or an\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 19,
+   "query": "\"neighbours UMAP was added as a bonus\"",
+   "query_words": 7,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 20,
+   "query": "\"because they pile up near both\"",
+   "query_words": 6,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 21,
+   "query": "\"Principal Component Analysis and SVD PCA was fitted on all\"",
+   "query_words": 10,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 22,
+   "query": "\"for the whole catalogue for eight representative genres and for every decade from the\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 23,
+   "query": "\"Embeddings depend on hyperparameters and random seeds and are still not distance-faithful so cluster\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 24,
+   "query": "\"with basic and temporally aware audio features and compare several classifiers\"",
+   "query_words": 11,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 25,
+   "query": "\"Bangalore India paper submission deadline\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 26,
+   "query": "\"MICE validation on artificially masked values\"",
+   "query_words": 6,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 27,
+   "query": "\"An IEEE Bangalore Section conference on computing and communication technologies suitable for an applied\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 28,
+   "query": "\"were acoustic and calm\"",
+   "query_words": 4,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 29,
+   "query": "\"row total x column total\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 30,
+   "query": "\"PROJECT DESCRIPTION AND GOALS\"",
+   "query_words": 4,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 31,
+   "query": "\"Number of canonical tracks per release year Yearly means with\"",
+   "query_words": 10,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 32,
+   "query": "\"ARIMA forecast of yearly loudness against held-out years Fig\"",
+   "query_words": 9,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 33,
+   "query": "\"Compared with three CNN designs at matched parameter counts the hybrid model gave strong\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 34,
+   "query": "\"Radar fingerprints of mean audio profiles per genre Fig\"",
+   "query_words": 9,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 35,
+   "query": "\"a review and recent developments Philosophical Transactions of the Royal Society\"",
+   "query_words": 11,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 36,
+   "query": "\"filtering latent factors directly from audio comparing bag-of-words audio features with deep CNNs on\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 37,
+   "query": "\"Lyric sentiment versus audio valence and VADER versus TextBlob score distributions Fig\"",
+   "query_words": 12,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 38,
+   "query": "\"Description of their Work Drawbacks Found in that\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 39,
+   "query": "\"It is a reference point for using audio descriptors to separate hits from non-hits\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 40,
+   "query": "\"and average duration shrank from\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 41,
+   "query": "\"It motivates content-based similarity from audio which SonicAtlas offers as a\"",
+   "query_words": 11,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "first attempt hit rate limit; retried successfully"
+  },
+  {
+   "doc": "report",
+   "i": 42,
+   "query": "\"No Author's Name Title of Paper Journal Name and link Why this paper\"",
+   "query_words": 13,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 43,
+   "query": "\"descriptors are themselves outputs of proprietary models so all conclusions are about these descriptors\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 44,
+   "query": "\"The authors present a variant of Stochastic Neighbor Embedding that is easier to optimise\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 45,
+   "query": "\"They span audio-feature analysis genre classification popularity and trend studies the long-term evolution of\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 46,
+   "query": "\"No Author's Name Title of Paper Journal Name and link Why this paper\"",
+   "query_words": 13,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 47,
+   "query": "\"a research paper a public software artefact and the open documented dataset pipeline behind\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 48,
+   "query": "\"Predicted factors yield sensible recommendations and CNNs clearly outperform the traditional pipeline\"",
+   "query_words": 12,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 49,
+   "query": "\"CONCLUSION This project set out to understand how the sound of recorded music differs\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 50,
+   "query": "\"change and diversity across decades directly informing SonicAtlas's\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 51,
+   "query": "\"Country is the most positive tag\"",
+   "query_words": 6,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "report",
+   "i": 52,
+   "query": "\"exploratory data analysis Spotify audio features dimensionality reduction time series lyrics mining DuckDB-WASM interactive\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 53,
+   "query": "\"Silhouette scores computed with the eight focus genres as labels are slightly negative for\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 54,
+   "query": "\"around how machine learning is used to recommend or automate the next analysis steps\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 55,
+   "query": "\"It runs as a server-side Streamlit app in a biomedical domain unlike SonicAtlas's fully\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 56,
+   "query": "\"It links low-level audio descriptors to perceived emotion which helps interpret Spotify's valence and\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 57,
+   "query": "\"t-SNE is one of the embedding options for SonicAtlas's\"",
+   "query_words": 9,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 58,
+   "query": "\"own laptop with no server which removes the hosting cost that usually stops student\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "report",
+   "i": 59,
+   "query": "\"and silhouette and name the acoustic clusters found by KMeans\"",
+   "query_words": 10,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 0,
+   "query": "\"DATASETS AND PREPROCESSING We combine three public Kaggle\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 1,
+   "query": "\"VADER and TextBlob agree on polarity for\"",
+   "query_words": 7,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 2,
+   "query": "\"of the variance in an\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 3,
+   "query": "\"Spearman coefficients agree so the relations are monotonic\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 4,
+   "query": "\"TABLE II COMPARISON OF DIMENSIONALITY-REDUCTION METHODS Method Time\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 5,
+   "query": "\"songs linked to audio descriptors lyric sentiment and valence Fig\"",
+   "query_words": 10,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 6,
+   "query": "\"can be linked to the main table by track ID or title and artist\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 7,
+   "query": "\"All expensive steps run once in Python and emit columnar Parquet files precomputed embeddings\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 8,
+   "query": "\"report strong temporal signals but publish them as static results\"",
+   "query_words": 10,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 9,
+   "query": "\"shows the yearly trends and Fig\"",
+   "query_words": 6,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 10,
+   "query": "\"Lyric sentiment is almost unrelated to audio valence\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 11,
+   "query": "\"dB while acousticness falls from\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 12,
+   "query": "\"t-SNE keeps local neighbourhoods best\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 13,
+   "query": "\"are standard for maps of\"",
+   "query_words": 5,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 14,
+   "query": "\"Exploratory Data Analysis course for their guidance and the creators of the public datasets\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 15,
+   "query": "\"All results are explorable in the browser through SQL executed by DuckDB-WASM on Parquet\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 16,
+   "query": "\"with country the most major-key genre Table IV collects the tests\"",
+   "query_words": 11,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 17,
+   "query": "\"data analysis music information retrieval audio features dimensionality reduction time-series analysis in-browser analytics I\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 18,
+   "query": "\"and Min-Max and z-score versions are stored\"",
+   "query_words": 7,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 19,
+   "query": "\"The closest system in spirit is a Streamlit application for exploratory analysis of clinical\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 20,
+   "query": "\"sample and parallel coordinates Andrews curves radar and violin plots on a balanced sample\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 21,
+   "query": "\"bias towards recent releases the low match rate between sources and the English-only lyrics\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 22,
+   "query": "\"s and caught skew and correlation but none flagged the physically impossible tempo values\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 23,
+   "query": "\"Second results are usually frozen into figures so a reader cannot ask a slightly\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 24,
+   "query": "\"Table II compares the four methods and Fig\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 25,
+   "query": "\"malised title and lead artist is marked canonical\"",
+   "query_words": 8,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 26,
+   "query": "\"usually without the matching audio view sentiment is often scored with VADER\"",
+   "query_words": 12,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 27,
+   "query": "\"Silhouette scores computed with genre labels are negative for every method and in the\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  },
+  {
+   "doc": "paper",
+   "i": 28,
+   "query": "\"English songs the median lyric has\"",
+   "query_words": 6,
+   "exact_matches": 0,
+   "urls": [],
+   "note": "short query (<8 words): fewer than 8 clean consecutive words in sentence"
+  },
+  {
+   "doc": "paper",
+   "i": 29,
+   "query": "\"Delivering the results through an in-browser SQL engine lets readers verify and extend each\"",
+   "query_words": 14,
+   "exact_matches": 0,
+   "urls": []
+  }
+ ],
+ "summary": {
+  "report_matches": 1,
+  "paper_matches": 0,
+  "errors": 1
+ },
+ "notes": "WebSearch returns summaries, not raw snippets; a match required the same 8+ word sequence to be shown. Abstract paraphrases (report 12 PCA review, 13 Voyager, 36 van den Oord, 44 t-SNE, 39 Herremans) are close in meaning but not verbatim, so counted 0."
+}

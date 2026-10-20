@@ -1,0 +1,12 @@
+[project]
+name = "sonicatlas"
+version = "1.0.0"
+description = "SonicAtlas EDA package (Team 05, BACSE301, VIT Vellore)"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

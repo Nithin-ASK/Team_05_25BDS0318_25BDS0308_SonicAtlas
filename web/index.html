@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SonicAtlas - explore 150k Spotify tracks in your browser</title>
+    <meta name="description" content="SonicAtlas is an in-browser exploratory data analysis studio for Spotify audio features. Query ~150,000 tracks with SQL (DuckDB-WASM), compare groups with live statistical tests, and explore acoustic maps, trends, genres, lyrics and collaboration networks." />
+    <meta name="theme-color" content="#0b0f17" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      try {
+        var t = localStorage.getItem('sa-theme');
+        var d = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (d) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <noscript>SonicAtlas needs JavaScript to run SQL in your browser.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

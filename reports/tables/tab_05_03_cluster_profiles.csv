@@ -1,0 +1,7 @@
+cluster,danceability,energy,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo,log_duration,size,share_pct,top_genres,name
+0,0.461,0.675,-9.126,0.094,0.326,0.176,0.735,0.464,120.804,1.632,75247,6.2,"pagode, sertanejo, samba",Live recordings
+1,0.661,0.68,-7.795,0.078,0.235,0.124,0.162,0.688,119.201,1.517,342771,28.5,"salsa, dance, forro",Upbeat danceable pop
+2,0.487,0.283,-13.821,0.049,0.763,0.128,0.152,0.379,112.697,1.461,246242,20.5,"romance, tango, honky-tonk",Soft acoustic songs
+3,0.422,0.758,-7.291,0.072,0.092,0.331,0.183,0.328,133.605,1.649,264277,21.9,"black-metal, grindcore, death-metal",Loud & intense (rock/metal)
+4,0.305,0.145,-21.934,0.047,0.884,0.727,0.138,0.171,103.387,1.641,225198,18.7,"new-age, ambient, sleep",Quiet acoustic instrumentals
+5,0.643,0.54,-11.731,0.523,0.425,0.045,0.296,0.514,112.596,1.311,50290,4.2,"comedy, j-dance, dancehall",Spoken word & rap

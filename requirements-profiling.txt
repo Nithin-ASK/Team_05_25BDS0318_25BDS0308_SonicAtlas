@@ -1,0 +1,9 @@
+# Separate environment for notebook 09 (profiling libraries pin older pandas)
+ydata-profiling==4.18.4
+sweetviz==2.3.3
+dtale==3.22.0
+pandas==2.3.3
+numpy==2.3.5
+pyarrow
+ipykernel
+setuptools<81

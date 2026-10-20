@@ -1,0 +1,26 @@
+{
+  "home": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "query_studio": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "compare": {
+    "performance": 75,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "about": {
+    "performance": 99,
+    "accessibility": 96,
+    "best-practices": 100,
+    "seo": 100
+  }
+}

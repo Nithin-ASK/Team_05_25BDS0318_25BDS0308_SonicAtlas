@@ -1,0 +1,42 @@
+2026-10-20 11:15
+01_data_acquisition_and_audit.ipynb: OK in 16.2s (12 cells)
+2026-10-20 11:18
+02_cleaning_imputation_scaling_outliers.ipynb: OK in 105.7s (25 cells)
+2026-10-20 11:19
+03_descriptive_stats_and_distributions.ipynb: OK in 11.2s (17 cells)
+2026-10-20 11:20
+04_multivariate_storytelling.ipynb: OK in 8.9s (14 cells)
+2026-10-20 11:23
+06_time_series_and_decade_trends.ipynb: OK in 19.6s (16 cells)
+2026-10-20 11:26
+05_dimensionality_reduction_pca_tsne_lle.ipynb: OK in 145.7s (20 cells)
+2026-10-20 11:28
+08_hypothesis_tests_and_feature_selection.ipynb: OK in 19.1s (14 cells)
+2026-10-20 11:30
+05_dimensionality_reduction_pca_tsne_lle.ipynb: OK in 191.2s (20 cells)
+06_time_series_and_decade_trends.ipynb: OK in 19.1s (16 cells)
+2026-10-20 11:31
+08_hypothesis_tests_and_feature_selection.ipynb: OK in 5.1s (14 cells)
+2026-10-20 11:36
+04_multivariate_storytelling.ipynb: OK in 9.3s (14 cells)
+2026-10-20 11:47
+02_cleaning_imputation_scaling_outliers.ipynb: OK in 97.5s (25 cells)
+03_descriptive_stats_and_distributions.ipynb: OK in 13.7s (17 cells)
+04_multivariate_storytelling.ipynb: OK in 11.0s (14 cells)
+05_dimensionality_reduction_pca_tsne_lle.ipynb: OK in 197.6s (20 cells)
+06_time_series_and_decade_trends.ipynb: OK in 13.8s (16 cells)
+08_hypothesis_tests_and_feature_selection.ipynb: OK in 7.0s (14 cells)
+2026-10-20 11:50
+07_lyrics_text_eda_and_sentiment.ipynb: OK in 390.2s (20 cells)
+2026-10-20 12:08
+07_lyrics_text_eda_and_sentiment.ipynb: OK in 120.4s (20 cells)
+2026-10-20 12:13
+10_artist_collaboration_network.ipynb: OK in 316.5s (9 cells)
+2026-10-20 12:16
+09_automated_profiling_benchmark.ipynb: OK in 25.2s (11 cells)
+2026-10-20 12:24
+07_lyrics_text_eda_and_sentiment.ipynb: OK in 135.3s (20 cells)
+08_hypothesis_tests_and_feature_selection.ipynb: OK in 4.6s (14 cells)
+10_artist_collaboration_network.ipynb: OK in 355.0s (9 cells)
+2026-10-20 12:30
+10_artist_collaboration_network.ipynb: OK in 337.4s (9 cells)

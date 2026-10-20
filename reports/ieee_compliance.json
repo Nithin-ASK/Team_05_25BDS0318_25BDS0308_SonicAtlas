@@ -1,0 +1,52 @@
+{
+ "pdf": "Team_05_25BDS0318_25BDS0308_IEEE_Paper.pdf",
+ "pages": 6,
+ "page_size_pt": [
+  595.3,
+  841.9
+ ],
+ "page_size_ok_A4": true,
+ "fonts": {
+  "IHAIZV+TeXGyreTermesX-Regular-Identity-H": {
+   "type": "Type0",
+   "embedded": true,
+   "subset": true
+  },
+  "BZIVMZ+TeXGyreTermesX-Italic-Identity-H": {
+   "type": "Type0",
+   "embedded": true,
+   "subset": true
+  },
+  "IXFAWU+TeXGyreTermesX-BoldItalic-Identity-H": {
+   "type": "Type0",
+   "embedded": true,
+   "subset": true
+  },
+  "TQTHRL+TeXGyreTermesX-Bold-Identity-H": {
+   "type": "Type0",
+   "embedded": true,
+   "subset": true
+  },
+  "YEUUOC+NewTXMI": {
+   "type": "Type1",
+   "embedded": true,
+   "subset": true
+  }
+ },
+ "all_fonts_embedded": true,
+ "type3_fonts": [],
+ "two_column_pages": 5,
+ "text_margin_pt": {
+  "left": 40.6,
+  "right": 40.6,
+  "top": 51.2,
+  "bottom": 123.2
+ },
+ "page_numbers_or_headers_found": 0,
+ "image_dpi_min": 566.0,
+ "images": 7,
+ "citations_in_text": 30,
+ "references_listed": 30,
+ "all_citations_have_reference": true,
+ "pages_within_6_8": true
+}

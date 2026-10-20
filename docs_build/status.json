@@ -1,0 +1,21 @@
+{
+  "modules": [
+    {"name": "Data acquisition and audit", "pct": 100, "state": "done"},
+    {"name": "Cleaning, MICE, scaling, outliers", "pct": 100, "state": "done"},
+    {"name": "Descriptive statistics", "pct": 100, "state": "done"},
+    {"name": "Multivariate storytelling", "pct": 100, "state": "done"},
+    {"name": "PCA / t-SNE / LLE / clusters", "pct": 100, "state": "done"},
+    {"name": "Time series and trends", "pct": 100, "state": "done"},
+    {"name": "Hypothesis tests, features", "pct": 100, "state": "done"},
+    {"name": "Lyrics text mining", "pct": 60, "state": "in progress"},
+    {"name": "SonicAtlas website", "pct": 15, "state": "in progress"},
+    {"name": "IEEE paper and final report", "pct": 40, "state": "in progress"}
+  ],
+  "next": [
+    "Website: Query Studio, Acoustic Map, Compare, Time Machine",
+    "Lyrics sentiment vs audio valence; artist network",
+    "YData-Profiling, Sweetviz, D-Tale benchmark",
+    "Playwright tests, Lighthouse audit, GitHub Pages",
+    "IEEE paper, plagiarism self-check, final report"
+  ]
+}

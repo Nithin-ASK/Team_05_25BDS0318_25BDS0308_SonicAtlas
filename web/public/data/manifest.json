@@ -1,0 +1,13 @@
+{
+ "lite_rows": 150000,
+ "lite_bytes": 14491111,
+ "lite_labelled": 4217,
+ "full_rows": 1204025,
+ "full_bytes": 64166404,
+ "genre_rows": 89740,
+ "genre_bytes": 6340304,
+ "embed_rows": 10000,
+ "embed_bytes": 1019290,
+ "ts_bytes": 116707,
+ "summary_bytes": 40704
+}

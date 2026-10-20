@@ -1,0 +1,5 @@
+Tool,Runtime (s),Output,What it found,What it missed
+YData-Profiling,4.8,static HTML report,"distributions, missing values, correlations, alerts (skew, zeros, high correlation)","no domain meaning (e.g. tempo = 0 is impossible), no Tukey quartiles or G2, no time trends, no genre comparison"
+Sweetviz,6.3,"static HTML, two-group comparison",side-by-side 1990s vs 2010s distributions and associations,"no statistical test of the difference, no effect sizes, only two groups at a time"
+D-Tale,4.1,live server grid in the browser,"sortable grid, describe, charts and pandas code export","needs a running Python server, not shareable as a static page, no music-specific views"
+Manual EDA (SonicAtlas),minutes per notebook,notebooks + static website,"everything above plus MICE, outlier cases, PCA/t-SNE/LLE, STL, change points, tests, lyrics",takes more effort to build; requires domain knowledge
