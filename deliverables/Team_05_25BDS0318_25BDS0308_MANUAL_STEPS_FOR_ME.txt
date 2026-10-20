@@ -1,0 +1,65 @@
+MANUAL STEPS FOR ME
+Only the jobs that need you (not Claude). Simple steps, in order.
+
+A. Check the cover page (today, 5 minutes)
+  1. Open deliverables/Project_Report.docx in Word. Look at page 1.
+  2. School name: the report says SCHOOL OF COMPUTER SCIENCE AND ENGINEERING. If your school is different, change it, then File > Save.
+  3. Faculty name: search for ____ (Ctrl+F) in the report and in the PPT title slides. Type the faculty name.
+  4. VIT logo: download the logo from the official VIT website or your VIT login page and save it as a PNG. Click the box on the cover, delete the text '[Paste official VIT logo here]', then Insert > Pictures > This Device and choose the PNG. Make it about 4 cm wide.
+  5. Then File > Export > Create PDF/XPS to make a new PDF. Check that the Table of Contents page numbers still match (the TOC is a table, not automatic: if pages moved, fix the numbers by hand).
+  6. Tell Claude to re-run 'make report' instead if you want the logo added by script: give the PNG path and the faculty name.
+
+B. Send the three emails (when: Review-2 today; Review-3 and final when the faculty asks)
+  1. Open deliverables/Email_Drafts.txt. Each email has a subject line, a body and a list of attachment names.
+  2. In Gmail or Outlook click Compose. Copy the To address (faculty email), the subject and the body from the draft. Write the faculty email in To. Add Sharvesh and Nithin in Cc.
+  3. Click the paperclip and attach exactly the files listed. Review-2 email: Review2_PPT.pptx and its PDF. Check the total size (limit about 25 MB). If too big, attach only the PDFs and paste the GitHub link.
+  4. Replace the words [GitHub Link] and [Live Website Link] with the real links, read the email once, then press Send. Nobody else can press this button for you.
+  5. Keep the Sent mail as proof of submission.
+
+C. Submit the case study report (Lab Assessment-7, last date 20.10.2026)
+  1. Open the VIT student portal (the same place where you did the other lab assessments) and log in with your own password.
+  2. Go to the course BACSE301 > Lab Assessment-7 > Upload.
+  3. Upload Team_05_25BDS0318_25BDS0308_Project_Report.pdf. Upload the .docx only if the portal asks for it. Keep the file name exactly as it is: it starts with Team_05_25BDS0318_25BDS0308.
+  4. Press Submit. On the success page take a screenshot and save it in a folder called 'proofs'. This is your receipt.
+
+D. Plagiarism: what the file in deliverables really is
+  1. Team_05_25BDS0318_25BDS0308_Plagiarism_Report.pdf is OUR OWN self-check. It is NOT a Turnitin report and must never be shown as one.
+  2. Our self-check compared the report and paper with 57 sources and searched 90 sentences on the web. It found about 0.18% overlap in the report and 0% in the paper. An official tool may give different numbers.
+  3. For the official check, ask the faculty or the VIT library: 'Please run a Turnitin similarity check on our report.' Send them the PDF. Save the Turnitin report they send you.
+  4. When you get it, put it in the folder 'proofs' and add its first page in the Outcome Proof, in the box 'Official Turnitin report from VIT' (section Pending Proofs).
+  5. WARNING: never paste your report or paper into free online plagiarism checkers. Many of them keep the text. Later the official Turnitin may then say your own text is copied.
+
+E. The IEEE paper and the project outcome
+  1. The paper is 'prepared for submission'. It is NOT submitted, accepted or published. Never write 'published' or 'accepted' until you have the email that proves it.
+  2. Choose a conference. We found IEEE CONECCT 2027 (Bangalore, 29-31 July 2027). Its paper deadline is listed as 15 December 2026 (checked on 20 Oct 2026). Dates change: open https://www.ieee-conecct.org.ieeebangalore.org/ and check the deadline and the paper rules again before you decide.
+  3. Submit only on the conference's own website (usually EDAS or Microsoft CMT). Create the account yourself, upload deliverables/IEEE_Paper.pdf, and add both authors with their VIT emails.
+  4. IEEE PDF eXpress: go to ieee-pdf-express.org, create an account, enter the Conference ID that the conference gives you, and upload the PDF. If it says 'fail', send us the message and we fix the file.
+  5. Keep the submission receipt email and the paper ID. When you receive them, add them to the Outcome Proof in the empty boxes 'Conference submission acknowledgement' and 'Acceptance e-mail'. Do not make these documents yourself.
+
+F. Team Sharvesh and Nithin
+  1. Nithin: after the GitHub step, send Sharvesh the GitHub link and the project folder (zip), so both can run the website.
+  2. Both of you: read the three 2-minute scripts below and the Viva Questions sheet. Practise once aloud.
+  3. Sharvesh's email address is still '<email>' in the paper and documents. Give it to Claude to fill, or type it by hand.
+
+G. Last 10 points to tick before each submission
+  [ ] 1. File names start with Team_05_25BDS0318_25BDS0308.
+  [ ] 2. Faculty name and school name are correct on the cover and title slides.
+  [ ] 3. VIT logo is on the report cover.
+  [ ] 4. All [GitHub Link], [Live Website Link], [Demo Video Link], [Paper Link] and <email> words are replaced (search with Ctrl+F).
+  [ ] 5. Every PPT has at most 10 slides.
+  [ ] 6. The report PDF opens and the Table of Contents page numbers are right.
+  [ ] 7. The attachments in the email match the file names in the draft.
+  [ ] 8. The live website opens in a new browser window and Query Studio runs a query.
+  [ ] 9. You did not write 'published' or 'accepted' anywhere without proof.
+  [ ] 10. You saved the screenshot or email proving each submission.
+
+TALKING SCRIPTS
+
+Review-2 script (2 minutes)
+We are Team 05. SonicAtlas asks how the sound of music changes across genres and eras. We cleaned about 1.2 million public Spotify tracks. Some tracks had a tempo of zero, which is impossible, so we repaired them with MICE. To test MICE we hid 5 percent of known values, and its error was up to 57 percent lower than simply filling the average. We flagged outliers and re-releases instead of deleting them. Our statistics follow our course: n minus 1 variance, Tukey quartiles, G1 and G2. Energy rises with loudness and falls with acousticness. PCA, t-SNE and LLE show that genres overlap, and t-SNE keeps local structure best. Next we finish the website, the lyrics and network analysis, and the paper.
+
+Review-3 script (2 minutes)
+Since Review-2 we finished everything. Music became about 7.8 decibels louder, with change points in 1989 and 1999, the CD loudness-war years. Genre explains 42% of the variation in danceability. Lyric mood barely follows musical mood. The website runs SQL inside the browser with DuckDB, so the data stays private and hosting is free. It passes 65 unit tests and 8 end-to-end tests, answers a query in a few milliseconds, and scores 98 to 100 in Lighthouse. The IEEE paper is prepared for submission.
+
+Final script (2 minutes)
+Open music data is messy and usually shown in static charts. We built a documented pipeline over 1.2 million tracks, 114 genres and 161 thousand English lyrics. We used the course methods: descriptive statistics, correlation, PCA, SVD, t-SNE, LLE, STL, change points, ANOVA and chi-square. We delivered a serverless website where anyone can query, map and compare the data. Our five findings: music got louder and less acoustic; energy follows loudness; genre explains 42 percent of danceability; t-SNE is the best map; and lyric sentiment is almost independent of audio valence. Our limits: Spotify features are model-made, the catalogue favours recent years, only 10.7% of the genre data joins to the audio table, and lyrics are English only.

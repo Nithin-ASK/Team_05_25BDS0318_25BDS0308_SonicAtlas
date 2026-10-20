@@ -35,6 +35,8 @@ rows = [
     ["Source_Code.zip", "Clean code snapshot, no data or secrets", "Faculty / GitHub", "[ ]"],
     ["Demo_Video.mp4", "Website walkthrough with captions", "Faculty, link in report", "[ ]"],
     ["Email_Drafts.txt", "Three ready-to-send e-mails (not sent)", "You send them", "[ ]"],
+    ["MANUAL_STEPS_FOR_ME.pdf / .txt", "Step-by-step guide to your own jobs", "Read first", "[ ]"],
+    ["Viva_Questions.pdf", "20 likely viva questions with short answers", "Practise", "[ ]"],
 ]
 rep.table(["File (after " + PREFIX[:13] + "...)", "What it is", "Where / when to submit", "Done"], rows,
           "Deliverables in the deliverables folder", widths_cm=[5.6, 6.0, 4.8, 1.2], size=8.5)

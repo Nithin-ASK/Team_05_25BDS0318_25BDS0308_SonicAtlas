@@ -204,7 +204,7 @@ export default function Compare() {
 
       {err && <div className="mb-4"><Notice tone="error">{err}</Notice></div>}
       {groups.length < 2 ? <Card><EmptyState title="Pick at least two groups" /></Card> : !valid ? (
-        loading || !data ? <div className="grid gap-6 lg:grid-cols-2"><Skeleton className="h-80" /><Skeleton className="h-80" /><Skeleton className="h-60 lg:col-span-2" /></div>
+        loading || !data ? <div className="space-y-6"><Card><CardHeader title="Hypothesis test" subtitle={`${FEATURE_LABEL[feature]} - computed live in TypeScript`} /><div className="min-h-[245px] space-y-4 p-5"><p className="text-base leading-relaxed">Loading the Parquet data into your browser and computing the test for the selected groups. This runs locally and takes a few seconds on the first visit.</p></div></Card><div className="grid gap-6 lg:grid-cols-2"><Skeleton className="h-[453px]" /><Skeleton className="h-[453px]" /></div><Skeleton className="h-[392px]" /><Skeleton className="h-[194px]" /><Skeleton className="h-[458px]" /></div>
           : <Card><EmptyState title="A group has fewer than two tracks">Choose different groups or loosen the condition.</EmptyState></Card>
       ) : (
         <div className="space-y-6">

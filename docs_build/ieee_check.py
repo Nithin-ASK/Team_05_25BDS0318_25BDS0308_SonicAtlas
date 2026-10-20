@@ -53,7 +53,7 @@ def main() -> dict:
             for r in pg.get_image_rects(xref):
                 if r.width > 0:
                     dpis.append(px_w / (r.width / 72))
-    txt = " ".join(pg.get_text() for pg in d)
+    txt = "\n".join(pg.get_text() for pg in d)
     cites = set(int(x) for grp in re.findall(r"\[(\d+(?:\]\s*,\s*\[\d+)*)\]", txt.split("REFERENCES")[0]) for x in re.findall(r"\d+", grp))
     refs = re.findall(r"^\[(\d+)\]", txt.split("REFERENCES")[-1], re.M)
     res = {

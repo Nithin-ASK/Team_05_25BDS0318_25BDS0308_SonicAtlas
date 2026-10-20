@@ -170,7 +170,7 @@ function sEvaluation(pres) {
   D.table(s, ["Method", "Time (s)", "Trust.", "Silh."], ["PCA", "t-SNE", "LLE", "UMAP"].map((k) => [k, f(cp[k].runtime_s, 1), f(cp[k].trustworthiness_k10, 3), f(cp[k].silhouette_focus_genres, 3)]), 0.5, 1.7, 5.6, [1.4, 1.3, 1.4, 1.5], 15);
   const stats = [[WEB.query_ms_median != null ? `${WEB.query_ms_median} ms` : "n/a", "median lite-data query time"],
     [QA.pytest || "7/7", "Python unit tests passed"], [WEB.unit_tests || "pending", "web unit tests passed"], [WEB.e2e_tests || "pending", "Playwright end-to-end tests"],
-    [WEB.lighthouse_pages ? "96-100" : "pending", "Lighthouse accessibility, best practice, SEO (performance 75-99)"]];
+    [WEB.lighthouse_pages ? "98-100" : "pending", "Lighthouse performance, accessibility, best practice, SEO (4 pages)"]];
   stats.forEach(([v, l], i) => D.stat(s, 6.5 + (i % 2) * 3.2, 1.7 + Math.floor(i / 2) * 1.75, 3.0, v, l, { size: 24 }));
   if (PR) s.addText(`Automated EDA: YData ${f(PR.ydata_seconds, 1)} s, Sweetviz ${f(PR.sweetviz_seconds, 1)} s, D-Tale ${f(PR.dtale_seconds, 1)} s - fast overviews, but none flagged 0-BPM tempos or ran tests/embeddings.`, { x: 0.5, y: 4.6, w: 5.6, h: 1.6, fontSize: 15, color: D.COL.ink, margin: 0, isTextBox: true });
   s.addNotes("We evaluated each part: embeddings by trustworthiness and silhouette, the website by query time, automated tests and Lighthouse audits, and the automated EDA tools by what they found and missed compared with our manual analysis.");

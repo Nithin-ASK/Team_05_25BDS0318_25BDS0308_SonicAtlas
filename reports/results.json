@@ -2074,10 +2074,10 @@
     "unit_tests": "65/65",
     "e2e_tests": "8/8",
     "query_ms_median": 4.7,
-    "lighthouse": "Home 99/100/100/100; Compare perf 75",
+    "lighthouse": "performance 98-99, accessibility 100, best practices 100, SEO 100 on four pages",
     "lighthouse_pages": {
       "home": {
-        "performance": 99,
+        "performance": 98,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
@@ -2089,14 +2089,14 @@
         "seo": 100
       },
       "compare": {
-        "performance": 75,
+        "performance": 99,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
       "about": {
         "performance": 99,
-        "accessibility": 96,
+        "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       }
@@ -2114,8 +2114,8 @@
       "Data Profile": "done",
       "Methodology": "done"
     },
-    "eval_summary": "65/65 unit and 8/8 end-to-end tests pass; SQL console query 4.7 ms; Lighthouse accessibility/best-practices/SEO 96-100",
-    "report_paragraph": "The website is complete: all eleven modules are implemented in React and TypeScript on DuckDB-WASM, with 65 unit tests and 8 end-to-end tests passing, a measured SQL console query time of 4.7 ms on the 150,000-track lite dataset, and Lighthouse scores of 96-100 for accessibility, best practices and SEO (performance 99 on three pages; 75 on Compare, where the largest contentful paint waits for the Parquet download on a cold start).",
-    "paper_sentence": "**Website.** The platform passes 65 unit and 8 end-to-end tests, answers a SQL console query in 4.7 ms on the lite data, and scores 96-100 in Lighthouse accessibility, best-practice and SEO audits."
+    "eval_summary": "65/65 unit and 8/8 end-to-end tests pass; SQL console query 4.7 ms; Lighthouse performance 98-99 and accessibility, best practices and SEO all 100 (four pages)",
+    "report_paragraph": "The website is complete: all eleven modules are implemented in React and TypeScript on DuckDB-WASM, with 65 unit tests and 8 end-to-end tests passing, a measured SQL console query time of 4.7 ms on the 150,000-track lite dataset, and Lighthouse scores of 98-99 for performance and 100 for accessibility, best practices and SEO on the four pages audited (Home, Query Studio, Compare, About). An early audit of the Compare page scored 75 for performance because of layout shift while data loaded; matching the loading skeleton to the final layout raised it to 99.",
+    "paper_sentence": "**Website.** The platform passes 65 unit and 8 end-to-end tests, answers a SQL console query in 4.7 ms on the lite data, and scores 98-99 (performance) and 100 (accessibility, best practice, SEO) in Lighthouse audits of four pages."
   }
 }

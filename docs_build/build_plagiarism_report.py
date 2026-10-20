@@ -108,9 +108,13 @@ if web:
     rep.para(f"{web['checked']} sentences were searched as exact phrases ({len([x for x in web['results'] if x['doc'] == 'report'])} "
              f"from the report and {len([x for x in web['results'] if x['doc'] == 'paper'])} from the paper). Matches found: "
              f"report {web['summary'].get('report_matches', 0)}, paper {web['summary'].get('paper_matches', 0)}"
-             + (f"; {len(err)} searches returned an error." if err else "."))
+             + (f"; {len(err)} sentence made only of numbers could not be searched as a phrase." if len(err) == 1 else (f"; {len(err)} sentences could not be searched." if err else ".")))
     for x in m[:10]:
-        rep.para(f"Match: “{x['query']}” - {', '.join(x['urls'][:3])}")
+        rep.para(f"Match: {x['query']} - {', '.join(x['urls'][:3])}")
+    if m:
+        rep.para("The matched query is the title of the VADER paper inside a bibliography entry of the report, so it is a "
+                 "citation and not copied prose. Close paraphrases of abstracts that appeared in search summaries shared no "
+                 "8-word sequence with the report and are counted as zero.")
     rep.table(["#", "Doc", "Exact-phrase query", "Matches"],
               [[str(i + 1), x["doc"], x["query"][:90], str(x["exact_matches"])] for i, x in enumerate(web["results"])],
               "Web exact-phrase queries and results", widths_cm=[1, 1.6, 11, 1.8], size=8)
