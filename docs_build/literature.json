@@ -601,22 +601,22 @@
   {
    "name": "IEEE CONECCT 2027 (13th IEEE International Conference on Electronics, Computing and Communication Technologies)",
    "url": "https://www.ieee-conecct.org.ieeebangalore.org/",
-   "dates_or_deadline": "29-31 July 2027, Bangalore, India; paper submission deadline 15 December 2026",
-   "description": "An IEEE Bangalore Section conference on computing and communication technologies, suitable for an applied data-analytics paper and still open for submissions.",
+   "dates_or_deadline": "29-31 July 2027, Bangalore; paper deadline 15 December 2026",
+   "description": "IEEE Bangalore Section conference on computing and communication technologies; suits an applied data-analytics paper and is still open.",
    "verified_via": "https://www.ieee-conecct.org.ieeebangalore.org/ fetched 2026-10-20 (WebFetch OK; plain curl returned 406 bot block); heading 'IEEE CONECCT 2027' and dates read from the page timeline"
   },
   {
    "name": "ISMIR (International Society for Music Information Retrieval Conference)",
    "url": "https://ismir2026.ismir.net/",
-   "dates_or_deadline": "ISMIR 2026 runs 8-12 November 2026 in Abu Dhabi; its deadlines have passed, so the target is the 2027 edition once its call is published",
-   "description": "The leading venue for music information retrieval research and the closest thematic fit for SonicAtlas, including its late-breaking demo track.",
+   "dates_or_deadline": "ISMIR 2026 is 8-12 November 2026 (deadlines passed); target the 2027 edition",
+   "description": "The leading music information retrieval venue and the closest topic fit, including its late-breaking demo track.",
    "verified_via": "https://ismir2026.ismir.net/ -> HTTP 200 (dates/location/important dates read); https://ismir2026.ismir.net/call-for-late-breaking-demo read"
   },
   {
    "name": "IEEE VIS (IEEE Visualization and Visual Analytics Conference)",
    "url": "https://ieeevis.org/year/2026/welcome/",
-   "dates_or_deadline": "VIS 2026 runs 9-13 November 2026 in Boston; its deadlines have passed, so the target is the VIS 2027 short-paper track once announced",
-   "description": "The premier conference on visualization and visual analytics, whose short-paper track suits an interactive in-browser EDA system.",
+   "dates_or_deadline": "VIS 2026 is 9-13 November 2026 (deadlines passed); target the 2027 short papers",
+   "description": "The main visualization and visual analytics conference; its short-paper track suits an interactive EDA system.",
    "verified_via": "https://ieeevis.org/year/2026/welcome/ -> HTTP 200 (edition, dates, location read)"
   }
  ],

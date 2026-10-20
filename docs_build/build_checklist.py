@@ -46,8 +46,8 @@ p.paragraph_format.space_after = Pt(1)
 for t in [
     "Confirm the school name on the cover (we used SCHOOL OF COMPUTER SCIENCE AND ENGINEERING) and the course name; write the faculty name where it shows ____.",
     "Paste the official VIT logo into the empty box on the report cover (we cannot legally copy it).",
-    "Replace [GitHub Link], [Live Website Link], [Demo Video Link] and [Paper Link] in the report, decks and e-mails; put Sharvesh's e-mail where it shows <email>.",
-    "Push the repository to GitHub and enable Pages (Settings -> Pages -> Source: GitHub Actions); upload tracks_full_web.parquet as a Release asset if you want the full data tier.",
+    "Links are filled in (GitHub, live site, demo video, paper preprint). Still to fill: Sharvesh's e-mail where it shows <email>, the faculty name and e-mail.",
+    "Already published: repository, v1.0.0 release (demo video) and the live site (gh-pages). Optional: enable the Actions workflow (see deploy/README.md; needs the workflow permission).",
     "Send the three e-mails yourself; check every attachment name and link first.",
     "Pick a venue (IEEE CONECCT 2027: deadline 15 Dec 2026) and run IEEE PDF eXpress with that conference ID; submit the paper yourself.",
     "The official Turnitin check is done by VIT or the faculty. Our report is a self-check only and says so on its cover.",

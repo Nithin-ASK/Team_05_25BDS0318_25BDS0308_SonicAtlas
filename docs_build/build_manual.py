@@ -29,7 +29,7 @@ SECTIONS = [
    "Open deliverables/Email_Drafts.txt. Each email has a subject line, a body and a list of attachment names.",
    "In Gmail or Outlook click Compose. Copy the To address (faculty email), the subject and the body from the draft. Write the faculty email in To. Add Sharvesh and Nithin in Cc.",
    "Click the paperclip and attach exactly the files listed. Review-2 email: Review2_PPT.pptx and its PDF. Check the total size (limit about 25 MB). If too big, attach only the PDFs and paste the GitHub link.",
-   "Replace the words [GitHub Link] and [Live Website Link] with the real links, read the email once, then press Send. Nobody else can press this button for you.",
+   "The links are already filled in. Read the email once, then press Send. Nobody else can press this button for you.",
    "Keep the Sent mail as proof of submission.",
  ]),
  ("C. Submit the case study report (Lab Assessment-7, last date 20.10.2026)", [
@@ -53,7 +53,7 @@ SECTIONS = [
    "Keep the submission receipt email and the paper ID. When you receive them, add them to the Outcome Proof in the empty boxes 'Conference submission acknowledgement' and 'Acceptance e-mail'. Do not make these documents yourself.",
  ]),
  ("F. Team Sharvesh and Nithin", [
-   "Nithin: after the GitHub step, send Sharvesh the GitHub link and the project folder (zip), so both can run the website.",
+   "Nithin: send Sharvesh the GitHub link https://github.com/Nithin-ASK/Team_05_25BDS0318_25BDS0308_SonicAtlas and the live link https://nithin-ask.github.io/Team_05_25BDS0318_25BDS0308_SonicAtlas/ so both can use and run the website.",
    "Both of you: read the three 2-minute scripts below and the Viva Questions sheet. Practise once aloud.",
    "Sharvesh's email address is still '<email>' in the paper and documents. Give it to Claude to fill, or type it by hand.",
  ]),
@@ -82,7 +82,7 @@ TICK = [
  "File names start with Team_05_25BDS0318_25BDS0308.",
  "Faculty name and school name are correct on the cover and title slides.",
  "VIT logo is on the report cover.",
- "All [GitHub Link], [Live Website Link], [Demo Video Link], [Paper Link] and <email> words are replaced (search with Ctrl+F).",
+ "No [..Link..] placeholder is left (links are filled in); the words <email> and ____ are replaced by real values (search with Ctrl+F).",
  "Every PPT has at most 10 slides.",
  "The report PDF opens and the Table of Contents page numbers are right.",
  "The attachments in the email match the file names in the draft.",

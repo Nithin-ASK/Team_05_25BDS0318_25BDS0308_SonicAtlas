@@ -16,3 +16,9 @@
 - Decks Review-1 (8 slides), Review-2, Review-3, Final (10 each) with notes; Outcome Proof (4 pp); Plagiarism self-check (6 pp); Checklist (1 p); Source_Code.zip; Demo_Video.mp4.
 - docs_build/check_numbers.py: all key numbers match results.json in every document.
 - Known gaps: placeholders for GitHub / live / video / paper links, faculty name, VIT logo (cover box); Compare page performance 75.
+
+## Publishing (20 Oct 2026)
+- Repo: https://github.com/Nithin-ASK/Team_05_25BDS0318_25BDS0308_SonicAtlas (main + tag v1.0.0, release with demo video).
+- Live site (Pages from branch gh-pages): https://nithin-ask.github.io/Team_05_25BDS0318_25BDS0308_SonicAtlas/ - 8/8 e2e tests pass LIVE (11 pages, no console errors, SQL 6.9 ms); full 1.2M-row tier loads live.
+- Lighthouse after fix (Compare skeleton heights): performance 98-99, accessibility/best-practices/SEO 100.
+- Not done: Actions workflow (GitHub needs the `workflow` permission; file kept in deploy/), Gmail drafts (not logged in), faculty/school/logo/Sharvesh email placeholders (details not given).

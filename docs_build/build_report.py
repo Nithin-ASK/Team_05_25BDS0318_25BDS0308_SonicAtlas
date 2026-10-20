@@ -748,17 +748,16 @@ def conclusion():
 def outcome():
     rep.h1("6. Project Outcome")
     rep.para("**(a) Research paper.** A six-page paper in the official IEEE conference format, titled “" + TITLE +
-             "”, has been written from the results of this project. Status: prepared for submission. [Paper Link]")
+             "”, has been written from the results of this project. Status: prepared for submission (not yet submitted or published). "
+             "Preprint copy in the project repository: " + L["paper"])
     rep.para("**(b) Target conferences.** Three suitable venues:")
     for v in lit.get("venues", [])[:3]:
         p = rep.bullet(v["name"], f"{v.get('description', '')} Dates: {v.get('dates_or_deadline', 'see website')}. Website: ")
         add_hyperlink(p, v["url"], v["url"])
     rep.para("**(c) Software and data.**")
-    rep.bullet("GitHub repository", L["github"])
-    rep.bullet("Live website", L["live"])
-    rep.bullet("Demo video", L["video"])
-    rep.bullet("Key features", "in-browser SQL (DuckDB-WASM), filters and plain-English queries, switchable embedding maps, "
-               "group comparison with live tests, time-series explorer, shareable URLs.")
+    rep.para(L["github"], bold_label="GitHub repository: ", size=10, align=WD_ALIGN_PARAGRAPH.LEFT)
+    rep.para(L["live"], bold_label="Live website: ", size=10, align=WD_ALIGN_PARAGRAPH.LEFT)
+    rep.para(L["video"], bold_label="Demo video: ", size=9, align=WD_ALIGN_PARAGRAPH.LEFT)
 
 
 def references():

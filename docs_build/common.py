@@ -35,7 +35,7 @@ def LIT() -> dict:
 def links() -> dict:
     p = ROOT / "docs_build" / "links.json"
     d = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
-    return {"github": d.get("github", GITHUB), "live": d.get("live", LIVE), "video": d.get("video", VIDEO)}
+    return {"github": d.get("github", GITHUB), "live": d.get("live", LIVE), "video": d.get("video", VIDEO), "paper": d.get("paper", "[Paper Link]")}
 
 
 def n(x, d=0) -> str:

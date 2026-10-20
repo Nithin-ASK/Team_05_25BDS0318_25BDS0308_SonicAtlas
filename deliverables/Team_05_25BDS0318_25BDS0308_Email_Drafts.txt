@@ -16,8 +16,8 @@ Attachments:
   - Team_05_25BDS0318_25BDS0308_Review2_PPT.pptx
   - Team_05_25BDS0318_25BDS0308_Review2_PPT.pdf
 
-GitHub repository: [GitHub Link]
-Live website: [Live Website Link]
+GitHub repository: https://github.com/Nithin-ASK/Team_05_25BDS0318_25BDS0308_SonicAtlas
+Live website: https://nithin-ask.github.io/Team_05_25BDS0318_25BDS0308_SonicAtlas/
 
 Regards,
 Team 05
@@ -42,8 +42,8 @@ Attachments:
   - Team_05_25BDS0318_25BDS0308_Review3_PPT.pptx
   - Team_05_25BDS0318_25BDS0308_Review3_PPT.pdf
 
-GitHub repository: [GitHub Link]
-Live website: [Live Website Link]
+GitHub repository: https://github.com/Nithin-ASK/Team_05_25BDS0318_25BDS0308_SonicAtlas
+Live website: https://nithin-ask.github.io/Team_05_25BDS0318_25BDS0308_SonicAtlas/
 
 Regards,
 Team 05
@@ -72,8 +72,8 @@ Attachments:
   - Team_05_25BDS0318_25BDS0308_Outcome_Proof.pdf
   - Team_05_25BDS0318_25BDS0308_Plagiarism_Report.pdf
 
-GitHub repository: [GitHub Link]
-Live website: [Live Website Link]
+GitHub repository: https://github.com/Nithin-ASK/Team_05_25BDS0318_25BDS0308_SonicAtlas
+Live website: https://nithin-ask.github.io/Team_05_25BDS0318_25BDS0308_SonicAtlas/
 
 Regards,
 Team 05

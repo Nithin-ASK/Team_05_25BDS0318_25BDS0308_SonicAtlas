@@ -4,51 +4,51 @@
  "corpus_words": 93391,
  "documents": {
   "Project Report": {
-   "words": 8820,
-   "similarity_8gram_pct": 0.18140589569160998,
-   "similarity_5gram_pct": 1.0090702947845804,
+   "words": 8749,
+   "similarity_8gram_pct": 0.1828780432049377,
+   "similarity_5gram_pct": 0.9486798491256143,
    "top_sources_8gram": [
     [
      "paper_wongsuphasawat2016voyager",
-     0.09070294784580499
+     0.09143902160246885
     ],
     [
      "wiki_Music_information_retrieval",
-     0.09070294784580499
+     0.09143902160246885
     ]
    ],
    "top_sources_5gram": [
     [
      "wiki_Music_information_retrieval",
-     0.2947845804988662
+     0.22859755400617213
     ],
     [
      "paper_schedl2018challenges",
-     0.12471655328798185
+     0.12572865470339467
     ],
     [
      "paper_wongsuphasawat2016voyager",
-     0.09070294784580499
+     0.09143902160246885
     ],
     [
      "paper_tzanetakis2002genre",
-     0.07936507936507936
+     0.08000914390216024
     ],
     [
      "paper_interiano2018trends",
-     0.06802721088435375
+     0.06857926620185165
     ],
     [
      "wiki_Imputation_statistics_",
-     0.06802721088435375
+     0.06857926620185165
     ],
     [
      "paper_bertinmahieux2011msd",
-     0.05668934240362812
+     0.05714938850154303
     ],
     [
      "paper_jolliffe2016pca",
-     0.05668934240362812
+     0.05714938850154303
     ]
    ],
    "matched_passages_8gram": [
@@ -57,7 +57,7 @@
    ],
    "sentences": 315,
    "tfidf_flagged": [],
-   "max_single_source_8gram_pct": 0.09070294784580499
+   "max_single_source_8gram_pct": 0.09143902160246885
   },
   "IEEE Paper": {
    "words": 1740,
@@ -82,7 +82,7 @@
    "max_single_source_8gram_pct": 0.0
   },
   "Review3 PPT": {
-   "words": 887,
+   "words": 896,
    "similarity_8gram_pct": 0.0,
    "similarity_5gram_pct": 0.0,
    "top_sources_8gram": [],
@@ -93,7 +93,7 @@
    "max_single_source_8gram_pct": 0.0
   },
   "Final PPT": {
-   "words": 1003,
+   "words": 1014,
    "similarity_8gram_pct": 0.0,
    "similarity_5gram_pct": 0.0,
    "top_sources_8gram": [],
@@ -139,16 +139,17 @@
    "It then surveys adaptations of PCA for different data types and structures and discusses what the method can and cannot do.",
    "Voyager complements manual chart building with a browsable gallery of automatically generated visualisations ranked by statistical and perceptual criteria.",
    "To organise and recommend this material, Spotify and similar services compute numerical descriptors for each recording: danceability, energy, valence (musical positivity), acousticness, instrumentalness, speechiness, liveness, loudness in decibels, tempo in beats per minute, key, mode and duration.",
-   "LLE reconstructs each point from its neighbours with linear weights and then finds a low-dimensional embedding that preserves those weights.",
+   "Test genre differences formally (one-way ANOVA with Tukey HSD, Kruskal-Wallis, chi-square with Cramer's V) and compare filter and wrapper feature-selection rankings. 7.",
+   "Findings are reported as static figures for one market, without lyrics content or an interactive environment for others to re-slice the data. 7 N.",
    "t-SNE used perplexity 30; LLE used 15 neighbours; UMAP was added as a bonus.",
    "Acousticness and instrumentalness are platykurtic (G2 below -1) because they pile up near both 0 and 1.",
    "Violin plots of danceability, energy and valence by genre 4.2.6 Principal Component Analysis and SVD PCA was fitted on all 1,204,025 tracks using the ten standardised features (with log duration).",
    "Report per-feature descriptive statistics (mean, median, mode, n-1 variance, Tukey Q1/Q3/IQR, G1, G2, CV) for the whole catalogue, for eight representative genres and for every decade from the 1950s to the 2020s. 3.",
    "Embeddings depend on hyperparameters and random seeds and are still not distance-faithful, so cluster positions must not be over- interpreted. 19 I.",
    "The authors assemble dance chart songs from 1985 to 2013 with basic and temporally aware audio features and compare several classifiers.",
-   "Dates: 29-31 July 2027, Bangalore, India; paper submission deadline 15 December 2026.",
+   "Dates: 29-31 July 2027, Bangalore; paper deadline 15 December 2026.",
    "Column Masked values RMSE (MICE) RMSE (mean) Improvement tempo 4,910 29.1791 30.3582 3.9% valence 4,920 0.2015 0.2695 25.2% energy 5,030 0.1244 0.2931 57.5% TABLE IV: MICE validation on artificially masked values 15 Fig. 2.",
-   "The following venues were identified as suitable targets: \u2022 IEEE CONECCT 2027 (13th IEEE International Conference on Electronics, Computing and Communication Technologies): An IEEE Bangalore Section conference on computing and communication technologies, suitable for an applied data- analytics paper and still open for submissions.",
+   "Three suitable venues: \u2022 IEEE CONECCT 2027 (13th IEEE International Conference on Electronics, Computing and Communication Technologies): IEEE Bangalore Section conference on computing and communication technologies; suits an applied data-analytics paper and is still open.",
    "The 1950s were acoustic and calm (acousticness 0.83, energy 0.30).",
    "Country is the most major-key genre (89.3%) and hip-hop the least (48.3%) (TABLE XVIII).",
    "PROJECT DESCRIPTION AND GOALS 6 3.1 Literature Review 6 3.2 Gaps Identified 11 3.3 Objectives 11 3.4 Problem Statement 12 4.",
@@ -158,7 +159,7 @@
    "Radar fingerprints of mean audio profiles per genre Fig. 11.",
    "Cadima Principal component analysis: a review and recent developments Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, vol. 374, no. 2065, Art.",
    "To tackle the cold-start problem, the authors predict collaborative- filtering latent factors directly from audio, comparing bag-of-words audio features with deep CNNs on the Million Song Dataset.",
-   "Betweenness (approximated with 1000 sampled sources) is highest for Various Artists, Traditional, Wolfgang Amadeus Mozart, which bridge otherwise separate communities.",
+   "Louvain community detection [41] found 189 communities with a high modularity of 0.83, meaning collaborations stay mostly inside scenes.",
    "Description of their Work Drawbacks Found in that (ICASSP), New Orleans, LA, USA, pp. 2392- 2396, 2017 09/ICASSP.2017.79 52585 transparent, feature-level EDA.",
    "S\u00f6rensen Dance Hit Song Prediction Journal of New Music Research, vol. 43, no. 3, pp. 291-302, 2014 80/09298215.2014.8 81888 It is a reference point for using audio descriptors to separate hits from non-hits within a single genre, a slice SonicAtlas can reproduce.",
    "From 1959 to 2020 mean loudness rose from -17.4 dB to -9.7 dB, energy from 0.25 to 0.59 and danceability from 0.38 to 0.56, while acousticness fell from 0.86 to 0.31 and average duration shrank from 4.55 to 3.69 minutes.",
@@ -168,11 +169,11 @@
    "The authors present a variant of Stochastic Neighbor Embedding that is easier to optimise and reduces the crowding of points in the map centre.",
    "They span audio-feature analysis, genre classification, popularity and trend studies, the long-term evolution of loudness and timbre, lyrics sentiment, recommendation, dimensionality reduction, automated EDA and in-browser analytics.",
    "No Author's Name Title of Paper Journal Name and link Why this paper matters?",
-   "PROJECT OUTCOME The project produces three kinds of outcome: a research paper, a public software artefact, and the open, documented dataset pipeline behind them. (a) Research paper.",
+   "Future work includes adding newer open audio descriptors (for example from AcousticBrainz-style feature extractors) to replace the closed Spotify features, multilingual lyrics analysis, learned audio embeddings, and user studies that measure how quickly students and researchers answer questions with SonicAtlas compared with notebooks. 39 6.",
    "Predicted factors yield sensible recommendations and CNNs clearly outperform the traditional pipeline.",
    "It was then joined to the main table by Spotify track ID (4,729 matches) and, for the rest, by normalised title and main artist (4,915 more).",
    "no. 150081, 2015 98/rsos.150081 change and diversity across decades, directly informing SonicAtlas's era- level comparisons and change-point view.",
-   "Lyric sentiment versus audio valence, and VADER versus TextBlob score distributions Fig. 26.",
+   "Sentiment scores come from the VADER lexicon [11] and the TextBlob library [39].",
    "Keywords: exploratory data analysis, Spotify audio features, dimensionality reduction, time series, lyrics mining, DuckDB-WASM, interactive visual analytics 4 2.",
    "Silhouette scores computed with the eight focus genres as labels are slightly negative for every method and even in the original space (-0.029): genres overlap heavily in Spotify\u2019s feature space, so no projection can separate them cleanly.",
    "Description of their Work Drawbacks Found in that 45/3318464.338312 6 around how machine learning is used to recommend or automate the next analysis steps.",
@@ -182,7 +183,6 @@
    "Third, a browser-based analytical database (DuckDB compiled to WebAssembly) now makes it possible to run SQL over hundreds of thousands of rows on the reader\u2019s own laptop with no server, which removes the hosting cost that usually stops student projects from becoming shared tools.",
    "Compare PCA, t-SNE, LLE and UMAP on a stratified 10,000-track sample using runtime, trustworthiness (k = 10) and silhouette, and name the acoustic clusters found by KMeans. 12 5.",
    "It was tuned on tweets and reviews, not poetic or slang- heavy lyrics, and handles only English, so lyric scores need caution. 12 C.",
-   "System architecture of SonicAtlas 4.3.2 Platform Modules TABLE XVI lists the modules of the platform and their purpose.",
    "Tukey fences (Q1 - 1.5 IQR, Q3 + 1.5 IQR) were applied per feature (TABLE VI), and an Isolation Forest [35] with 200 trees and 2% contamination was fitted on the standardised features, flagging 24,547 tracks (2.0%)."
   ],
   "paper": [

@@ -6,7 +6,7 @@
 
 Team 05 - BACSE301 Exploratory Data Analysis - Vellore Institute of Technology, Vellore - Fall 2026
 
-[Live website]([Live Website Link]) | [Demo video]([Demo Video Link]) | [Project report](deliverables/) | [IEEE paper](deliverables/)
+[Live website](https://nithin-ask.github.io/Team_05_25BDS0318_25BDS0308_SonicAtlas/) | [Demo video](https://github.com/Nithin-ASK/Team_05_25BDS0318_25BDS0308_SonicAtlas/releases/download/v1.0.0/Team_05_25BDS0318_25BDS0308_Demo_Video.mp4) | [Project report](deliverables/) | [IEEE paper](deliverables/)
 
 </div>
 
