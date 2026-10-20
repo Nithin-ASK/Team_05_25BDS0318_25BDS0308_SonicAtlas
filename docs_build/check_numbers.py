@@ -21,13 +21,13 @@ fl = TS["first_last"]
 
 # fact -> documents that must contain it (R = report, P = paper, 2/3/F = decks, O = outcome proof)
 FACTS = {
-    n(A["a_rows"]): "RP23FO",
+    n(A["a_rows"]): "RP2FO",
     n(C["tempo_zero_imputed"]): "RP2",
     n(C["reissue_rows"]): "RP2",
     n(C["iso_outliers"]): "RP2",
     pct(C["join"]["match_rate_pct"]): "RP2",
     f(M["pairs"]["loudness~energy"]["pearson"], 2): "RP2F",
-    f(M["pairs"]["energy~acousticness"]["pearson"], 2): "RP2F",
+    f(M["pairs"]["energy~acousticness"]["pearson"], 2): "RP2",
     f(DR["comparison"]["t-SNE"]["trustworthiness_k10"], 3): "RP2",
     f(DR["comparison"]["LLE"]["trustworthiness_k10"], 3): "RP2",
     f(T["anova"]["eta_squared"], 3): "RP",

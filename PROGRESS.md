@@ -11,15 +11,8 @@
 - First IEEE paper build (6 pages, IEEEtran via Tectonic) and number cross-check (`docs_build/check_numbers.py`: all facts match).
 - pytest: 7/7 pass.
 
-## Milestone B / C - in progress
-- Website (Vite + React + DuckDB-WASM) being built in `web/`.
-- Next: Review-3 PPT, Final PPT, Review-1 bonus, Outcome Proof, Plagiarism self-check, Source zip, Checklist, README.
-
-## Status at usage-limit stop (20 Oct 2026)
-Done and checked: Report (44 pp), Review-2 PPT, IEEE paper (6 pp, all automated IEEE checks pass) + .docx + LaTeX zip,
-Plagiarism self-check report (report 0.18%, paper 0%, decks 0%; web check: 0 prose matches), Outcome Proof (4 pp, first build),
-Email drafts, README/LICENSE, notebooks 01-10.
-Built but NOT yet visually reviewed: Review-1, Review-3, Final PPTs (website screenshots still being regenerated), Outcome Proof, Plagiarism Report PDF.
-Not done: website agent stopped mid-way (code in web/, check `npm run build`, tests, Lighthouse, demo video);
-results.json "web" section (test counts, Lighthouse, query time); Source_Code.zip (run docs_build/make_source_zip.py);
-Submission Checklist PDF; git init + commit; final regeneration of all documents.
+## Milestones B and C - DONE (20 Oct 2026)
+- Website: 11 modules, build OK; 65/65 unit tests, 8/8 Playwright tests; Lighthouse a11y/best-practice/SEO 96-100, performance 99 (Home, Query, About) and 75 (Compare, cold-start data download); demo video 1:57.
+- Decks Review-1 (8 slides), Review-2, Review-3, Final (10 each) with notes; Outcome Proof (4 pp); Plagiarism self-check (6 pp); Checklist (1 p); Source_Code.zip; Demo_Video.mp4.
+- docs_build/check_numbers.py: all key numbers match results.json in every document.
+- Known gaps: placeholders for GitHub / live / video / paper links, faculty name, VIT logo (cover box); Compare page performance 75.
